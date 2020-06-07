@@ -21,5 +21,4 @@ EXPOSE 8000
 
 COPY entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]
-
-
+CMD ["/bin/bash"]
